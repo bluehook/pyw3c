@@ -27,8 +27,8 @@ contract FoMo3Dlong is F3Devents {
     //=================_|===========================================================
     string constant public name = "FoMo3D Long Official";
     string constant public symbol = "F3D";
-    uint256 private rndExtra_ = 0;//extSettings.getLongExtra();     // length of the very first ICO
-    uint256 private rndGap_ = 0; //extSettings.getLongGap();         // length of ICO phase, set to 1 year for EOS.
+    uint256 private rndExtra_ = 30;//extSettings.getLongExtra();     // length of the very first ICO
+    uint256 private rndGap_ = 30; //extSettings.getLongGap();         // length of ICO phase, set to 1 year for EOS.
     uint256 constant private rndInit_ = 1 hours;                // round timer starts at this
     uint256 constant private rndInc_ = 30 seconds;              // every full key purchased adds this much to the timer
     uint256 constant private rndMax_ = 24 hours;                // max length a round timer can be
