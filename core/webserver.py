@@ -95,7 +95,7 @@ $sdk
                 print('  生成app.js')
 
             # 生成run.py
-            shutil.copy(Config.getWebTemplatePath('run.py'), Config.getWebPath('app/'))
+            shutil.copy(Config.getWebTemplatePath('run.py'), Config.getWebPath())
             print('  生成run.py')
 
         print('生成web目录完成')

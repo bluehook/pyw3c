@@ -31,7 +31,7 @@ if __name__ == '__main__':
     elif 'run' in sys.argv:
         # 启动web服务器
         print('\n启动web服务器..')
-        os.chdir("./web/app/")
+        os.chdir("./web/")
         os.system("run.py")
     else:
         help = '''
